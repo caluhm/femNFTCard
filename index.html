@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | NFT preview card component</title>
+  <style>
+    * {
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+<body class="margin-0 padding-0 bg-[#14253D]">
+  <div class="flex items-center justify-center h-[100vh] w-[100vw]">
+    <div class="shadow-2xl bg-[#1B335A] w-[300px] h-[550px] flex items-start justify-between flex-col p-5 rounded-lg">
+      <div class="shadow-xl rounded-lg cursor-pointer hover:filter hover:saturate-200 hover:backdrop-filter hover:backdrop-blur-lg hover:blur">
+        <img src="./images/image-equilibrium.jpg" alt="" class="rounded-lg">
+      </div>
+      <h2 class="text-white font-semibold text-lg hover:text-[#00FFF7] cursor-pointer">Equilibrium #3429</h2>
+      <p class="text-[#7E96B9] text-md font-normal"> Our Equilibrium collection promotes balance and calm.</p>
+      <div class="flex flex-row items-center justify-between w-full">
+        <div class="flex items-center justify-center">
+          <img src="./images/icon-ethereum.svg" alt="">
+          <h3 class="text-[#00FFF7] font-semibold ml-2">0.041 ETH</h3>
+        </div>
+        <div class="flex items-center justify-center">
+          <img src="./images/icon-clock.svg" alt="">
+          <p class="font-semibold text-[#7E96B9] ml-1.5"> 3 days left</p>
+        </div>
+      </div>
+      <div class="w-full h-[1px] bg-[#7E96B9]">
+
+      </div>
+      <div class="flex flex-row items-center justify-start pb-3">
+        <img src="./images/image-avatar.png" alt="" class="w-[30px] h-[30px] rounded-full border">
+        <p class="ml-3 font-normal text-sm text-[#7E96B9]">Creation of <span class="font-light text-white hover:text-[#00FFF7] cursor-pointer">Jules Wyvern</span></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
